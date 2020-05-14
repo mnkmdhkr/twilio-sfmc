@@ -30,7 +30,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "e962d1d4-8b07-4e76-89be-ecd1f1423b6d",
+      "applicationExtensionKey": "38499fad-4d8b-487f-85a1-8575f7f743e2",
        "save": {
            "url": "https://twilio-sfmc.herokuapp.com/save",
             "verb": "POST",
