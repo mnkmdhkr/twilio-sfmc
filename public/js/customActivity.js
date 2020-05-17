@@ -47,8 +47,8 @@ define([
 
         console.log('Has In arguments: '+JSON.stringify(inArguments));
 
-        $.each(inArguments, function (index, inArgument) {
-            $.each(inArgument, function (key, val) {
+        $.each(inArguments, function (index, inArguments) {
+            $.each(inArguments, function (key, val) {
 
                 if (key === 'accountSid') {
                     $('#accountSID').val(val);
