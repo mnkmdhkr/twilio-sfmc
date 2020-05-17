@@ -100,7 +100,7 @@ define([
             "authToken": authToken,
             "messagingService": messagingService,
             "body": body,
-            "to": "{{Contact.Attribute.twiliomcint.PhoneNumber}}" //<----This should map to your data extension name and phone number column
+            "to": "{{Contact.Attribute.TestSms.PhoneNumber}}" //<----This should map to your data extension name and phone number column
         }];
 
         payload['metaData'].isConfigured = true;
